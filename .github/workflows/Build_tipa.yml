@@ -24,9 +24,6 @@ jobs:
       - name: Setup Environment
         run: echo "THEOS=~/theos" >> $GITHUB_ENV
 
-      - name: Brew Upgrade
-        run: brew upgrade
-
       - name: Make Bootstrap Package
         run: make package
         
